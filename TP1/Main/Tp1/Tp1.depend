@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1599513133 source:j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\suma.c
+	"suma.h"
+
+1599513164 j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\suma.h
+
+1599513129 source:j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\resta.c
+	"resta.h"
+
+1599513156 j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\resta.h
+
+1599518589 source:j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\division.c
+	"division.h"
+
+1599512153 j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\division.h
+
+1599513122 source:j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\multiplicacion.c
+	"multiplicacion.h"
+
+1599513149 j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\multiplicacion.h
+
+1599519587 source:j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\factorial.c
+	"factorial.h"
+
+1599520400 j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\factorial.h
+
+1599520626 source:j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"suma.h"
+	"resta.h"
+	"division.h"
+	"factorial.h"
+	"factorialB.h"
+
+1599520441 j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\factorialb.h
+
