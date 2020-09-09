@@ -4,10 +4,10 @@
 
 1599513164 j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\suma.h
 
-1599513129 source:j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\resta.c
+1599687843 source:j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\resta.c
 	"resta.h"
 
-1599513156 j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\resta.h
+1599687850 j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\resta.h
 
 1599518589 source:j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\division.c
 	"division.h"
@@ -19,14 +19,15 @@
 
 1599513149 j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\multiplicacion.h
 
-1599519587 source:j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\factorial.c
+1599520874 source:j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\factorial.c
 	"factorial.h"
 
 1599520400 j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\factorial.h
 
-1599520626 source:j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\main.c
+1599690420 source:j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\main.c
 	<stdio.h>
 	<stdlib.h>
+	<ctype.h>
 	"suma.h"
 	"resta.h"
 	"division.h"
@@ -34,4 +35,7 @@
 	"factorialB.h"
 
 1599520441 j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\factorialb.h
+
+1599520885 source:j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp1\main\tp1\factorialb.c
+	"factorialB.h"
 

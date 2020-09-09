@@ -13,4 +13,4 @@
 *
 */
 
-float calcularResta(int num1, int num2);
+int calcularResta(int num1, int num2);
