@@ -4,15 +4,18 @@
 #include "suma.h"
 #include "resta.h"
 #include "division.h"
+#include "multiplicacion.h"
 #include "factorial.h"
 #include "factorialB.h"
 
 int main()
 {
-    int opcion=0;
+    int opcion;
     char salir;
     int num1;
     int num2;
+    int numIngreso;
+    int numIngreso2;
     int bandera1=0;
     int bandera2=0;
     int bandera3=0;
@@ -24,7 +27,7 @@ int main()
     int factorialFinalB;
 
     do{
-        system("cls");
+
         printf("***Menu de opciones:***\n\n");
         if(bandera1==0) //Compueba no se ingreso todavia el primer numero
         {
@@ -32,7 +35,7 @@ int main()
         }
         else
         {
-            printf("1- Ingresar 1er operando (A=%d)\n",num1);
+            printf("1- Ingresar 1er operando (A=%d)\n", num1);
         }
         if(bandera2==0) //Compueba si no se ingreso todavia el segundo numero
         {
@@ -47,10 +50,11 @@ int main()
         printf("5- Salir\n\n");
         printf("Elegir opcion:\n");
         scanf("%i",&opcion);
-        while(opcion<1 || opcion>5) //validacion de opciones
+        while(opcion<1 || opcion>5 || opcion == isalnum(opcion)) //validacion de opciones
         {
             printf("Opcion no valida!\n");
             printf("Elegir opcion:\n");
+            fflush(stdin);
             scanf("%d",&opcion);
         }
         switch(opcion)
@@ -58,14 +62,32 @@ int main()
             case 1:
                 {
                     printf("Ingresar 1er operando:");
-                    scanf("%d", &num1);
+                    fflush(stdin);
+                    scanf("%d", &numIngreso);
+                    while(numIngreso == isalnum(numIngreso))
+                    {
+                        printf("No es un numero!\n");
+                        printf("Ingresar 1er operando:");
+                        fflush(stdin);
+                        scanf("%d", &numIngreso);
+                    }
+                    num1 = numIngreso;
                     bandera1=1;
                     break;
                 }
             case 2:
                 {
                     printf("Ingresar 2do operando:");
-                    scanf("%d", &num2);
+                    fflush(stdin);
+                    scanf("%d", &numIngreso2);
+                    while(numIngreso2 == isalnum(numIngreso2))
+                    {
+                        printf("No es un numero!\n");
+                        printf("Ingresar 2do operando:");
+                        fflush(stdin);
+                        scanf("%d", &numIngreso2);
+                    }
+                    num2 = numIngreso2;
                     bandera2=1;
                     break;
                 }
@@ -120,7 +142,22 @@ int main()
                           printf("%d - %d = %d\n", num1, num2, restaFinal);
                           printf("%d / %d = %.2f\n", num1, num2, divisionFinal);
                           printf("%d * %d = %d\n", num1, num2, multiplicacionFinal);
-                          printf("%d! = %d\n%d! = %d\n\n", num1, factorialFinalA, num2, factorialFinalB);
+                          if(factorialFinalA==0)
+                          {
+                              printf("%d! = No tiene\n", num1);
+                          }
+                          else
+                          {
+                              printf("%d! = %d\n", num1, factorialFinalA);
+                          }
+                          if(factorialFinalB==0)
+                          {
+                              printf("%d! = No tiene\n", num2);
+                          }
+                          else
+                          {
+                              printf("%d! = %d\n\n", num2, factorialFinalB);
+                          }
                           printf("Presione una tecla para volver al menu...");
                           fflush(stdin);
                           getchar();
@@ -135,7 +172,9 @@ int main()
                     salir = tolower(salir);
                 }
         }
+        system("cls");
     }while(salir!='s');
+
 
 
     return 0;
