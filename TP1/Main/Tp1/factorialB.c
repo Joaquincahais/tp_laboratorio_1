@@ -11,12 +11,20 @@ int calcularFactorialB(int num2)
     }
     else
     {
-        for(int e=1; e<=num2; e++)
+        if(num2>16)
         {
-            factorialB = factorialB*e;
+            return -1;
+        }
+        else
+        {
+            for(int e=1; e<=num2; e++)
+            {
+                factorialB = factorialB*e;
+            }
+
+            return factorialB;
         }
 
-    return factorialB;
     }
 
 }

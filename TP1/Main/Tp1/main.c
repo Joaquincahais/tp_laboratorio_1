@@ -148,7 +148,15 @@ int main()
                           }
                           else
                           {
-                              printf("%d! = %d\n", num1, factorialFinalA);
+                              if(factorialFinalA==-1)
+                              {
+                                  printf("%d! = No es posible calcular el factorial de numeros mayores a 16\n", num1);
+                              }
+                              else
+                              {
+                                printf("%d! = %d\n", num1, factorialFinalA);
+                              }
+
                           }
                           if(factorialFinalB==0)
                           {
@@ -156,7 +164,15 @@ int main()
                           }
                           else
                           {
-                              printf("%d! = %d\n\n", num2, factorialFinalB);
+                              if(factorialFinalB==-1)
+                              {
+                                  printf("%d! = No es posible calcular el factorial de numeros mayores a 16\n", num2);
+                              }
+                              else
+                              {
+                                printf("%d! = %d\n\n", num2, factorialFinalB);
+                              }
+
                           }
                           printf("Presione una tecla para volver al menu...");
                           fflush(stdin);

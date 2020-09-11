@@ -11,11 +11,19 @@ int calcularFactorialA(int num1)
     }
     else
     {
-            for(int i=1; i<=num1; i++)
+        if(num1>16)
+        {
+            return -1;
+        }
+        else
+        {
+           for(int i=1; i<=num1; i++)
         {
             factorialA = factorialA*i;
         }
         return factorialA;
+        }
+
     }
 
 }
