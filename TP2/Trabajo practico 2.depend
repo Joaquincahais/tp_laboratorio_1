@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1601607402 source:j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp2\trabajo practico 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayEmployees.h"
+
+1601686344 j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp2\trabajo practico 2\arrayemployees.h
+
+1601686284 source:j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp2\trabajo practico 2\arrayemployees.c
+	"ArrayEmployees.h"
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1601691660 source:j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp2\tp2\arrayemployees.c
+	"ArrayEmployees.h"
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1601690765 j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp2\tp2\arrayemployees.h
+
+1601686643 source:j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp2\tp2\otrasfunciones.c
+	"OtrasFunciones.h"
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1601691181 j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp2\tp2\otrasfunciones.h
+	"ArrayEmployees.h"
+
+1601691666 source:j:\usuario joaco\programacion\1 cuatrimestre\programacion\tp2\tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<ctype.h>
+	"ArrayEmployees.h"
+	"OtrasFunciones.h"
+
